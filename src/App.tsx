@@ -20,14 +20,13 @@ const stages = [
 ]
 
 
-
 function App() {
   const [gameState, setGameState] = useState(stages[0].name)
   const [words] = useState(wordsList)
 
   const [pickedWord, setPickedWord] = useState<string>('')
   const [pickedCategory, setPickedCategory] = useState<string>('')
-  const [letters, setLetters] = useState<any>()
+  const [letters, setLetters] = useState<any>([])
 
   const [guessedLetters, setGuessedLetters] = useState<string[]>([]) // Letras adivinhadas
   const [wrongLetters, setWrongLetters] = useState<string[]>([]) // Letras erradas
@@ -45,7 +44,6 @@ function App() {
 
     return {word, category}
   }, [words])
-
 
   /* FUNÇÕES: */
   // Começa o game
@@ -103,7 +101,7 @@ function App() {
 
   // Check se as tentativas terminaram
   useEffect(() => {
-    if(guesses <= 0){
+    if(guesses === 0 ){
       // Resetar todos os states:
       clearLetterState();
       setGameState(stages[2].name)
@@ -113,29 +111,25 @@ function App() {
 
   // Check se acertou a palavra
   useEffect(() => {
-    const uniqueLetters = [... new Set(letters)]
+    const uniqueLetters = [...new Set(letters)]
     
     // Condição de vitória
-    if(guessedLetters.length === uniqueLetters.length){
+    if(guessedLetters.length === uniqueLetters.length && gameState === stages[1].name){
       // add Score
-      setScore((actualScore) => actualScore += 100)
-
+      setScore((actualScore) => (actualScore += 100))
+      
       // Restartar o jogo e criar um novo
       startGame()
     }
 
   }, [guessedLetters, letters, startGame])
 
-
   // Reiniciar o jogo
   const retryGame = () => {
     setScore(0);
     setGuesses(3)
-
     setGameState(stages[0].name)
   }
-
-
 
   
   return (
