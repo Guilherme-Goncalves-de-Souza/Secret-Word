@@ -2,7 +2,7 @@
 
 <br />
 
-<h3 align='center'> Projeto realizado no curso <strong> React do Zero a Maestria (c/ hooks, router, API, Projetos) </strong> na Udemy para praticar alguns conceitos do React. </h3>
+<h3 align='center'> Projeto realizado no curso <em> React do Zero a Maestria (c/ hooks, router, API, Projetos) </em> na Udemy para praticar alguns conceitos do React. </h3>
 
 <br />
 
