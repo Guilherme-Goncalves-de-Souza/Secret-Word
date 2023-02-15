@@ -1,19 +1,17 @@
-<h1 align="center"> Secret Word </h1>
+<h1 align="center"> <a href="https://secret-word-mu-neon.vercel.app/"> Secret Word </a></h1>
 
 <br />
 
-<h3 align='center'> Projeto realizado no curso <strong>React do Zero a Maestria (c/ hooks, router, API, Projetos)</strong> na Udemy para praticar alguns conceitos do React. </h3>
+<h3 align='center'> Projeto realizado no curso <em> React do Zero a Maestria (c/ hooks, router, API, Projetos) </em> na Udemy para praticar alguns conceitos do React. </h3>
 
 <br />
 
 ---------------------------------------
 
-
-Imagem do projeto:         |
-:-------------------------:|
-<img src='./public/imagem-do-projeto.png' alt='Imagem do projeto' title='Imagem do projeto'>
-
----------------------------------------
+<div align = "center">
+  <h2>Imagem do projeto:</h2>
+  <img src='./public/imagem-do-projeto.png' alt='Imagem do projeto' title='Imagem do projeto'>
+</div>
 <br>
 
 <div align = "center">
@@ -24,5 +22,5 @@ Imagem do projeto:         |
   
   <br><br>
 
-  ## <a href = ""> Veja o projeto aqui. </a>
+  ## <a href = "https://secret-word-mu-neon.vercel.app/"> Veja o projeto aqui. </a>
 </div>
