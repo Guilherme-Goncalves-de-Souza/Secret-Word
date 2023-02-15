@@ -1,19 +1,17 @@
-<h1 align="center"> Secret Word </h1>
+<h1 align="center"> <a href=""> Secret Word </a></h1>
 
 <br />
 
-<h3 align='center'> Projeto realizado no curso <strong>React do Zero a Maestria (c/ hooks, router, API, Projetos)</strong> na Udemy para praticar alguns conceitos do React. </h3>
+<h3 align='center'> Projeto realizado no curso <strong> React do Zero a Maestria (c/ hooks, router, API, Projetos) </strong> na Udemy para praticar alguns conceitos do React. </h3>
 
 <br />
 
 ---------------------------------------
 
-
-Imagem do projeto:         |
-:-------------------------:|
-<img src='./public/imagem-do-projeto.png' alt='Imagem do projeto' title='Imagem do projeto'>
-
----------------------------------------
+<div align = "center">
+  <h2>Imagem do projeto:</h2>
+  <img src='./public/imagem-do-projeto.png' alt='Imagem do projeto' title='Imagem do projeto'>
+</div>
 <br>
 
 <div align = "center">
