@@ -1,0 +1,88 @@
+.gameScreen{
+    font-size: 1.1em;
+
+    padding-top: 50px;
+}
+
+.points span{
+    font-weight: bold;
+}
+
+h1{
+    margin-top: 20px;
+}
+
+.dica{
+    margin-top: 20px;
+}
+
+.dica span{
+    color: #ecfa00;
+    transition: all ease .5s;
+}
+
+.dica span:hover{
+    opacity: .5;
+}
+
+h3{
+    margin-bottom: 10px;
+}
+
+
+.containerPalavras{
+    margin: 1.5em;
+    padding: 1.5em;
+    border: 20px solid #ecfa00;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.containerPalavras .letra, .quadradoBranco{
+    font-size: 70px;
+    line-height: 1.5;
+    border: 3px solid black;
+    height: 100px;
+    width: 100px;
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.adivinharLetra p{
+    margin-bottom: 1.2em;
+}
+
+.adivinharLetra form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.adivinharLetra form input{
+    height: 50px;
+    width: 50px;
+    font-size: 2em;
+    text-align: center;
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+.adivinharLetra form input:focus{
+    outline: none;
+    border: 3px solid #ecfa00;
+}
+
+.letrasErradas{
+    margin-top: 30px;
+}
+
+.letrasErradas p{
+    margin-bottom: 10px;
+}
+
+.letrasErradas span{
+    margin-right: 5px;
+}
